@@ -3,7 +3,7 @@
 #include "ofMain.h"
 #include "ofxGui.h"
 #include "ofxFreeMapping.h"
-
+#include "ofxOMXPlayer.h"
 //--------------------------------------------------------------
 class ofApp : public ofBaseApp
 {    
@@ -18,11 +18,11 @@ public:
     void mouseReleased(int x, int y, int button);
 
 private:
-	ofxFreeMapping mScreens[1];
-    ofVideoPlayer mVideo;    
+    ofxFreeMapping mScreens[1];
+    ofxOMXPlayer mOMXPlayer;
     ofxPanel gui;
     
     int mMappersCount;    
-	bool mShowConfiguration;
+    bool mShowConfiguration;
 };
 
