@@ -13,8 +13,9 @@ void ofApp::setup()
     mOMXPlayer.setup(omxSettings);
 
     ofSetFullscreen(true);
+	ofHideCursor();
    
-    mShowConfiguration = true; 
+    mShowConfiguration = false; 
     mMappersCount = 1;
 
     for (int i = 0; i < mMappersCount; i++) 
