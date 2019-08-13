@@ -60,7 +60,7 @@ void ofApp::draw()
         
         ofSetColor(125, 125);
 	ofFill();
-        ofDrawRectangle(0, ofGetHeight() - 70, 550, 100);
+        ofDrawRectangle(0, ofGetHeight() - 70, 650, 100);
         ofSetColor(255, 255);
         ofDrawBitmapString("Commands: F Fullscreen, L Load, S Save", 40, ofGetHeight() - 40);         
         ofDrawBitmapString("Press (CTRL/CMD/D) to enable/disable configuration mode", 40, ofGetHeight() - 20);
